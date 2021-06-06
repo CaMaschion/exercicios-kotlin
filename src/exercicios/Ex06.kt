@@ -6,7 +6,7 @@ import java.util.*
 fun main() {
 
     println("Calcule a área de um círculo")
-    val scan = Scanner(System.`in`)
+    val scan = Scanner(System.`in`).useLocale(Locale.US)
 
     println("Insira o raio do círculo:  ")
     val raio = scan.nextDouble()
