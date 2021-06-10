@@ -8,7 +8,7 @@ fun main() {
     println("Insira um valor")
     val valor = scan.nextInt()
 
-    if (valor > 0){
+    if (valor >= 0){
         println("positivo")
     } else {
         println("negativo")

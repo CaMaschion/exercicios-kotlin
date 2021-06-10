@@ -15,4 +15,24 @@ fun main() {
         "u" -> println("vogal")
         else -> println("consoante")
     }
+
+//    if(letra.length() > 1) {
+//        System.out.println("Não é uma letra válida")
+//    } else {
+////    switch(letra){
+////        case "a":
+////        case "e":
+////        case "i":
+////        case "o":
+////        case "u": System.out.println("vogal"); break
+////        case "A":
+////        case "E":
+////        case "I":
+////        case "O":
+////        case "U":
+////        default: System.out.println("consoante")
+////    }
+//    }
+
 }
+
