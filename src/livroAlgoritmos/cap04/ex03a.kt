@@ -14,9 +14,11 @@ fun main() {
     println("Digite um número:")
     val b = scan.nextInt()
 
-    if (a > b) {
+    val result = if (a > b) {
         println(a - b)
     } else {
         println(b - a)
     }
+
+    println("O resultado é $result")
 }
