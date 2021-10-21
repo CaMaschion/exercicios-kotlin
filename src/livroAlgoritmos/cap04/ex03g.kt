@@ -39,7 +39,7 @@ fun main() {
     }
 
     if (d % 2 == 0 && d % 3 == 0) {
-        println("$c é divisível por 2 e 3")
+        println("$d é divisível por 2 e 3")
     } else {
         println("O valor apresentado não é divisível por 2 e 3")
     }
