@@ -27,19 +27,19 @@ fun main() {
     }
 
     if (b % 2 == 0 && b % 3 == 0) {
-        println("$a é divisível por 2 e 3")
+        println("$b é divisível por 2 e 3")
     } else {
         println("O valor apresentado não é divisível por 2 e 3")
     }
 
     if (c % 2 == 0 && c % 3 == 0) {
-        println("$a é divisível por 2 e 3")
+        println("$c é divisível por 2 e 3")
     } else {
         println("O valor apresentado não é divisível por 2 e 3")
     }
 
     if (d % 2 == 0 && d % 3 == 0) {
-        println("$a é divisível por 2 e 3")
+        println("$c é divisível por 2 e 3")
     } else {
         println("O valor apresentado não é divisível por 2 e 3")
     }
