@@ -1,7 +1,7 @@
-package exercicios
+//faça um programa que peça o raio de um círculo, calcule e mostre sua área
+package exerciciosLoianeAulas11a13
 
 import java.util.*
-
 
 fun main() {
 
@@ -11,7 +11,7 @@ fun main() {
     println("Insira o raio do círculo:  ")
     val raio = scan.nextDouble()
 
-    val area = 3.14 * (raio * raio) * 2
+    val area = 3.14 * (raio * raio)
 
-    println("O dobro da área do círculo é : $area ")
+    println("A área do círculo é : $area ")
 }

@@ -1,5 +1,5 @@
-package exercicios
-
+package exerciciosLoianeAulas11a13
+//faça um programa que peça dois números e imprima a soma
 import java.util.*
 
 fun main() {
@@ -15,5 +15,5 @@ fun main() {
 
     val resultado = number1 + number2
 
-    println("O número informado foi: $resultado ")
+    println("A soma é: $resultado ")
 }

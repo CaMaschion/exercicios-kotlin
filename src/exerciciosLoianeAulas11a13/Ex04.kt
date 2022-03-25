@@ -1,4 +1,5 @@
-package exercicios
+//faça um programa que peça as 4 notas bimestrais e mostre a média
+package exerciciosLoianeAulas11a13
 
 import java.util.*
 

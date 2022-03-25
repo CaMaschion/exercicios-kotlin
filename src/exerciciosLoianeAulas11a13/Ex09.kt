@@ -1,4 +1,6 @@
-package exercicios
+/**faça um programa que peça a temperatura em graus farenheit, transforme e mostre a temperatura em graus celsius
+ C = (5*(f-32)/9)**/
+package exerciciosLoianeAulas11a13
 
 import java.util.*
 

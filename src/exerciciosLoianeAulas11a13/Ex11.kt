@@ -1,4 +1,10 @@
-package exercicios
+/**faça um programa que peça 2 numeros inteiros e um numero real.
+calcule e mostre :
+a. o produto do dobro do primeiro com metade do segundo
+b. a some do triplo do primeiro com o terceiro
+c. o terceiro elevado ao cubo**/
+
+package exerciciosLoianeAulas11a13
 
 import java.util.*
 

@@ -1,4 +1,5 @@
-package exercicios
+/**faça um programa que peça a temperatura em graus celsius, transforme e mostre em graus Farenheit.**/
+package exerciciosLoianeAulas11a13
 
 import java.util.*
 

@@ -2,8 +2,8 @@ package livroAlgoritmos.cap04
 
 import java.util.*
 
-//Efetuar a leitura de quatro valores numéricos inteiros representados pelas variáveis A, B, C e D.
-//Apresentar apenas os valores que sejam divisíveis por 2 ou 3.
+/**Efetuar a leitura de quatro valores numéricos inteiros representados pelas variáveis A, B, C e D.
+Apresentar apenas os valores que sejam divisíveis por 2 ou 3.**/
 
 fun main() {
 

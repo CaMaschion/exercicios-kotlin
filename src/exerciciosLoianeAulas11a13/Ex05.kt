@@ -1,4 +1,5 @@
-package exercicios
+//faça um programa que converta metros em centrímetros
+package exerciciosLoianeAulas11a13
 
 import java.util.*
 

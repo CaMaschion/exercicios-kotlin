@@ -1,4 +1,6 @@
-package exercicios
+//faça um programa que pergunte quanto voce ganha por hora e o número de horas trabalhadas no mês. Calcule o mostre
+//o total do seu salário no referido mês.
+package exerciciosLoianeAulas11a13
 
 import java.util.*
 

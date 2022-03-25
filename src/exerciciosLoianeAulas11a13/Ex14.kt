@@ -1,4 +1,6 @@
-package exercicios
+/**faça um programa que peça o tamanho de um arquivo para download (em MB) e a velocidade de um link de internet (em Mbps)
+ * calcule e informe o tempo aproximado de download do arquivo usando este link(em minutos)**/
+package exerciciosLoianeAulas11a13
 
 import java.util.*
 
