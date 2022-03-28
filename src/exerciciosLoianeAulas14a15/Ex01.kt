@@ -1,4 +1,6 @@
-package exercicios2
+/**faça um programa que peça dois números e imprima o maior deles**/
+
+package exerciciosLoianeAulas14a15
 
 import java.util.*
 

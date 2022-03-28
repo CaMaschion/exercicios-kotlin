@@ -1,4 +1,7 @@
-package exercicios2
+/**faça um programa que pergunte em que turno você estuda. peça para digitar M - matutino ou V - vespertino
+ * ou N - noturno. Imprima a mensagem "bom dia", "boa tarde", ou "boa noite" ou "valor inválido", conforme o caso**/
+
+package exerciciosLoianeAulas14a15
 
 import java.util.*
 

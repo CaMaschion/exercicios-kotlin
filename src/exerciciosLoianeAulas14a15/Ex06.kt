@@ -1,4 +1,5 @@
-package exercicios2
+/**faça um programa que leia três números e mostre o maior deles**/
+package exerciciosLoianeAulas14a15
 
 import java.util.*
 

@@ -1,4 +1,6 @@
-package exercicios2
+/**faça um programa que leia três números e mostre-os em ordem decrescente**/
+
+package exerciciosLoianeAulas14a15
 
 import java.util.*
 

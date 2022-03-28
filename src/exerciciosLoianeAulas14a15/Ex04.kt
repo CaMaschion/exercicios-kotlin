@@ -1,4 +1,6 @@
-package exercicios2
+/**faça um programa que verifique se uma letra digitada é vogal ou consoante**/
+
+package exerciciosLoianeAulas14a15
 
 import java.util.*
 
@@ -15,6 +17,8 @@ fun main() {
         "u" -> println("vogal")
         else -> println("consoante")
     }
+
+    //resolucao em java
 
 //    if(letra.length() > 1) {
 //        System.out.println("Não é uma letra válida")

@@ -1,4 +1,6 @@
-package exercicios2
+/**faça um programa que peça um valor e mostre na tela se o valor é positivo ou negativo**/
+
+package exerciciosLoianeAulas14a15
 
 import java.util.*
 

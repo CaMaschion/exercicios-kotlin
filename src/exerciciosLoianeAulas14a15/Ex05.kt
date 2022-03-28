@@ -1,4 +1,10 @@
-package exercicios2
+/**faça um programa para leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada
+ * por aluno e apresentar:
+ * A mensagem "aprovado", se a média alcançada for maior ou igual a sete
+ * A mensagem "reprovado" se a média for menor do que sete
+ * A mensagem "aprovado com distinção" se a média for igual a dez**/
+
+package exerciciosLoianeAulas14a15
 
 import java.util.*
 

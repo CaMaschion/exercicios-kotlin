@@ -1,4 +1,7 @@
-package exercicios2
+/**faça um programa que verifique se uma letra digitada é F ou M. Conforme a letra escrever: F - Feminino, M - Masculino
+ * Sexo Inválido**/
+
+package exerciciosLoianeAulas14a15
 
 import java.util.*
 
@@ -14,9 +17,11 @@ fun main() {
     } else if (letra.equals("F", ignoreCase = true)) {
         println("Feminino")
     } else {
-        println("Letra inválida")
+        println("sexo inválido")
     }
 }
+
+//resolucao em java
 
 /*public class Exer03 {
     public static void main (String[] args){

@@ -1,4 +1,4 @@
-package exercicios2
+package exerciciosLoianeAulas14a15
 
 import java.util.*
 
@@ -6,8 +6,6 @@ fun main() {
 
     println("Responda as questões")
     val scan = Scanner(System.`in`)
-
-
 
     //telefonou para a vítima
     //esteve no local do crime
@@ -19,7 +17,4 @@ fun main() {
     ///3-4 cumplice
     //5 assassino
     //1-0 inocente
-
-
-
 }
