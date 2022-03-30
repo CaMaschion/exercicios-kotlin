@@ -6,6 +6,11 @@ package exerciciosLoianeAulas14a15
 import java.util.*
 
 fun main() {
+    ifCases()
+//    whenCases()
+}
+
+fun ifCases(){
 
     val scan = Scanner(System.`in`).useLocale(Locale.US)
     println("Em qual turno você estuda? M-Matutino, V-Vespertino ou N-Noturno")
@@ -19,5 +24,17 @@ fun main() {
         println("Boa noite!")
     } else {
         println("Valor inválido")
+    }
+}
+
+fun whenCases() {
+    val scan = Scanner(System.`in`)
+    println("Em qual turno você estuda? M-Matutino, V-Vespertino ou N-Noturno")
+
+    when(scan.next().lowercase()){
+        "matutino" -> println("Bom dia")
+        "vespertino" -> println("Boa tarde")
+        "noturno" -> println("Boa noite")
+        else -> println("valor inválido")
     }
 }
