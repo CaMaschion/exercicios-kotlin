@@ -5,3 +5,5 @@ Autores: José Augusto N. G. Manzano e Jair Figuereido de Oliveira".
 
 * Exercícios do curso https://loiane.training/continuar-curso/java-basico
 
+* Exercícios https://hackerhank.com
+
