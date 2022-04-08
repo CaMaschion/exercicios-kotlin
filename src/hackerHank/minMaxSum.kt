@@ -10,28 +10,28 @@ Sample Output
  **/
 
 fun miniMaxSum(arr: Array<Int>): Unit {
-    var max = 0L
-    var min = arr[0].toLong()
-    var total = 0L
+    //Passinhos:
+    // primeiro: encontrar o valor minimo da soma do array
+    // segundo: encontrar o valor maximo da soma do array
+    // terceiro: encontrar a soma total do array
 
-    for (i in arr.indices) {
-        val item = arr[i].toLong()
-        total += item
-        if (item < min) {
-            min = item
-        }
-        if (item > max) {
-            max = item
-        }
+    var min = Int.MAX_VALUE // Int.MAX.VALUE determina um valor máximo para MIN porque nao tem nada menor que zero, né
+    var max = 0
+    var sum = 0 // soma dos numeros do array
+
+    //para encontrar a soma do array:
+    for (number in arr.indices) {
+        //para cada numero desse array primeiro adiciono esse numero na SUM
+        sum += number // resultado da soma do array
+        if (number < min) min = number // se esse número do array for menor que o MIN, o MIN recebe o número
+        if (number > max) max = number // se esse número do array for maior que o MAX, o MAX recebe o número
     }
-    println("${total - max} ${total - min}")
+    // para encontrar o valor min e max =  subtraio o minimo da soma(min) e o máximo da soma (max)
+    println("${sum - max} ${sum - min}")
 
 }
 
-
 fun main() {
-
     val arr = arrayOf(1, 2, 3, 4, 5)
-
     miniMaxSum(arr)
 }
