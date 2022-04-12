@@ -10,12 +10,11 @@ Sample Output
  **/
 
 fun miniMaxSum(arr: Array<Int>): Unit {
-    //Passinhos:
     // primeiro: encontrar o valor minimo da soma do array
     // segundo: encontrar o valor maximo da soma do array
     // terceiro: encontrar a soma total do array
 
-    var min = Int.MAX_VALUE // Int.MAX.VALUE determina um valor máximo para MIN porque nao tem nada menor que zero, né
+    var min = Int.MAX_VALUE // Int.MAX.VALUE determina um valor máximo para MIN porque nao tem nada menor que zero, né =)
     var max = 0
     var sum = 0 // soma dos numeros do array
 
