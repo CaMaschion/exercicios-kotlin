@@ -2,14 +2,28 @@ package hackerRank
 
 fun birthdayCakeCandles(candles: Array<Int>): Int {
 
-    var unitHigh = 1
+    var highestCandle = 1
     var counter = 0
 
+    //descobrir qual a vela mais alta no array
     for(i in candles.indices) {
-        if(candles[i] > unitHigh) {
-            unitHigh = candles[i]
+        if(candles[i] > highestCandle) {
+            highestCandle = candles[i]
         }
     }
+
+    // quantas vezes a vela mais alta aparece
+    for(i in candles.indices) {
+        if(candles[i] == highestCandle){
+            counter++
+        }
+    }
+    return counter
+}
+
+fun birthdayCakeCandles2(candles: Array<Int>): Int {
+    val unitHigh = candles.maxOrNull()
+    var counter = 0
 
     for(i in candles.indices) {
         if(candles[i] == unitHigh){
@@ -21,6 +35,6 @@ fun birthdayCakeCandles(candles: Array<Int>): Int {
 
 fun main(args: Array<String>) {
 
-    println(birthdayCakeCandles(arrayOf(3,2,1,3)))
+    println(birthdayCakeCandles2(arrayOf(3,2,1,3)))
 
 }
