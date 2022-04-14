@@ -22,11 +22,11 @@ fun birthdayCakeCandles(candles: Array<Int>): Int {
 }
 
 fun birthdayCakeCandles2(candles: Array<Int>): Int {
-    val unitHigh = candles.maxOrNull()
+    val highestCandle = candles.maxOrNull()
     var counter = 0
 
     for(i in candles.indices) {
-        if(candles[i] == unitHigh){
+        if(candles[i] == highestCandle){
             counter++
         }
     }
