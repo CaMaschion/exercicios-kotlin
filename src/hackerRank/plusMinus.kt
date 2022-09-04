@@ -10,6 +10,7 @@ package hackerRank
 fun plusMinus(arr: Array<Int>): Unit {
     //criar 3 variáveis para cada "grupo"
     // percorrer o array(matriz) e somar cada "grupo" (positivos, negativos e zeros)
+    //calcular a razao dividindo o soma dos numeros de cada grupo pelo tamanho do array
 
     var positiveNumber = 0.0
     var negativeNumber = 0.0
