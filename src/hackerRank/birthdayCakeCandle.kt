@@ -59,6 +59,6 @@ fun birthdayCakeCandles4(candles: Array<Int>): Int {
 
 fun main(args: Array<String>) {
 
-    println(birthdayCakeCandles2(arrayOf(3,2,1,3, 3)))
+    println(birthdayCakeCandles4(arrayOf(3,2,1,3, 3)))
 
 }
