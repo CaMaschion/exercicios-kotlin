@@ -30,12 +30,12 @@ fun senha() {
 
         var senhaValida = false
         if (senha.equals(nome, ignoreCase = true)) {
-            senhaValida = true
             println("Senha inválida. Crie uma senha diferente do seu nome")
             senha = scanSenha.next()
         } else {
+            senhaValida = true
             println("senha valida")
         }
 
-    } while (senhaValida)
+    } while (!senhaValida)
 }
