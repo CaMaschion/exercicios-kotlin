@@ -27,5 +27,16 @@ fun anos() {
         total++
 
     } while (popA < popB)
-    println("Número de anos necessários $total")
+    println("Quantidade de anos necessários $total")
+
+//    while (popA < popB) {
+//
+//        popA += (popA * 3) / 100
+//        popB += (popB * 1.5) / 100
+//        total++
+//    }
+//
+//    println("População A $popA")
+//    println("População B $popB")
+//    println("Quanridade de anos necessários $total")
 }
