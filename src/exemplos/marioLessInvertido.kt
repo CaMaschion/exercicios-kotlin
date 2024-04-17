@@ -6,29 +6,29 @@ fun main() {
 
 fun marioLessInvertido() {
 
-    var altura = 0
+    var andares = 0
 
     //perguntar a altura que o usuário quer a piramide
     do {
         println("Altura:")
-        altura = readLine()?.toInt()!!
+        andares = readLine()?.toInt()!!
 
-    } while (altura < 1 || altura > 8) //delimitacao de andar
+    } while (andares < 1 || andares > 8) //delimitacao de andar
 
     //percorrendo cada andar da piramide
-    for (i in 0..altura) {
-        preencherAndarComTijolinhosInvert(i, altura)
+    for (andar in 0..andares) {
+        preencherAndarComTijolinhosInvert(andar, andares)
 
     }
 }
 
 //preencher cada andar com os tijolinhos da piramide
-fun preencherAndarComTijolinhosInvert(tamanhoTotalAndar: Int, distancia: Int) {
+fun preencherAndarComTijolinhosInvert(tijolos: Int, distancia: Int) {
 
-    for (t in 0..distancia - tamanhoTotalAndar) {
+    for (t in 0..distancia - tijolos) {
         print(" ")
     }
-    for (j in 0..tamanhoTotalAndar) {
+    for (j in 0..tijolos) {
         print("#")
     }
 
