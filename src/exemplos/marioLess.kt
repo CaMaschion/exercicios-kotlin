@@ -6,28 +6,27 @@ fun main() {
 
 fun marioLess() {
 
-    var altura = 0
+    var andares = 0
 
     //perguntar a altura que o usuário quer a piramide
     do {
         println("Altura:")
-        altura = readLine()?.toInt()!!
+        andares = readLine()?.toInt()!!
 
-    } while (altura < 1 || altura > 8) //delimitacao de andar
+    } while (andares < 1 || andares > 8)
 
-    //percorrendo cada andar da piramide
-    for (i in 0..altura) {
-        preencherAndarComTijolinhos(i)
-
+    //contruindo a piramide
+    for (andar in 0..andares) {
+        val quantidadeDeTijolos = andar
+        preencherAndarComTijolinhos(quantidadeDeTijolos)
     }
 }
 
 //preencher cada andar com os tijolinhos da piramide
-fun preencherAndarComTijolinhos(andar: Int) {
+fun preencherAndarComTijolinhos(quantidadeDeTijolos: Int) {
 
-    for (j in 0..andar) {
+    for (tijolo in 0..quantidadeDeTijolos) {
         print("#")
     }
-
     println()
 }
