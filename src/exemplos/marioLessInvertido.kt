@@ -13,22 +13,21 @@ fun marioLessInvertido() {
         println("Altura:")
         andares = readLine()?.toInt()!!
 
-    } while (andares < 1 || andares > 8) //delimitacao de andar
+    } while (andares < 1 || andares > 8)
 
     //percorrendo cada andar da piramide
-    for (andar in 0..andares) {
+    for (andar in 1..andares) {
         preencherAndarComTijolinhosInvert(andar, andares)
-
     }
 }
 
 //preencher cada andar com os tijolinhos da piramide
 fun preencherAndarComTijolinhosInvert(tijolos: Int, distancia: Int) {
 
-    for (t in 0..distancia - tijolos) {
+    for (t in 1..distancia - tijolos) {
         print(" ")
     }
-    for (j in 0..tijolos) {
+    for (j in 1..tijolos) {
         print("#")
     }
 
