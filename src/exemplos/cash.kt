@@ -23,10 +23,10 @@ fun main() {
     val moedasDe1 = calcularQtdadeMoedasDe1(troco)
     troco -= moedasDe1 * 1
 
-    println("Moedas de 25: $moedasDe25")
-    println("Moedas de 10: $moedasDe10")
-    println("Moedas de 5: $moedasDe5")
-    println("Moedas de 1: $moedasDe1")
+    println("Quarter: $moedasDe25")
+    println("Dimes: $moedasDe10")
+    println("Nickels: $moedasDe5")
+    println("Pennies: $moedasDe1")
 
     val totalDeMoedas = moedasDe25 + moedasDe10 + moedasDe5 + moedasDe1
     println("Total de moedas: $totalDeMoedas")
