@@ -6,7 +6,6 @@ package kotlin
 fun main() {
 
     /**
-
     DECLARAÇÃO (STATEMENT) => quando usamos o when como declaracao, estamos utilizando-o para realizar acoes
     com base na correspondencia de um valor. Neste caso, o when nao retorna um valor, apenas executa um bloco de código
      **/
