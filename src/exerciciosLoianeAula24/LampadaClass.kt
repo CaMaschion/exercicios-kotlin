@@ -9,6 +9,5 @@ class LampadaClass {
     var potencia: Int = 0
     var tipoLuz: String? = null
     var garantia: Int = 0
-    var abajour: Boolean = false
     var tipos: Array<String> = arrayOf()
 }

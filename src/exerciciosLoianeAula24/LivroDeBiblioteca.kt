@@ -7,9 +7,12 @@ class LivroDeBiblioteca {
         val livroBiblioteca = LivroClass()
 
         livroBiblioteca.preco = 0
-        livroBiblioteca.autor = "Agatha"
-        livroBiblioteca.tema = "história"
+        livroBiblioteca.tema = "Fantasia"
+        livroBiblioteca.titulo = "O Senhor dos Anéis"
+        livroBiblioteca.autor = "J.R.R. Tolkien"
+        livroBiblioteca.numeroDePaginas = 1000
+        livroBiblioteca.anoDeLancamento = 1954
         livroBiblioteca.empresta = true
-        livroBiblioteca.quantidadeLivros = 4
+        livroBiblioteca.quantidadeLivros = 2
     }
 }

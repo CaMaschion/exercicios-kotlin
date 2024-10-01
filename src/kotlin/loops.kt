@@ -11,9 +11,9 @@ fun main() {
      **/
 
     //sintaxe básica
-    for (item in collection) {
-        //bloco de código a ser executado
-    }
+//    for (item in collection) {
+//        //bloco de código a ser executado
+//    }
 
     //exemplo com intervalo (range):
     for (i in 1..5) {
