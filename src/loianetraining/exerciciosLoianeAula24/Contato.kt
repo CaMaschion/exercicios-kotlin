@@ -8,3 +8,13 @@ class Contato {
     var email: String? = null
 
 }
+
+class ContatoPrincipal {
+    init {
+        val contato = Contato()
+        contato.nome = "João"
+        contato.sobrenome = "Silva"
+        contato.numeroDeTelefone = "11 99999-9999"
+        contato.email = "joao@uol.com.br"
+    }
+}

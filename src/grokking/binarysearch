@@ -1,0 +1,49 @@
+## 📝 Cinco Exercícios para Fixar a Recursão e Busca Binária
+
+### 1. Fatorial Recursivo (O Básico do Caso Base)
+
+Antes de voltar à busca binária, precisamos garantir que o conceito de **parar** e **reduzir** (que gerou o erro de `StackOverflow`) esteja 100% fixo. O cálculo do Fatorial é o exemplo clássico.
+
+**O Problema:** Escreva uma função recursiva `fatorial(n: Int)` que calcule o fatorial de um número inteiro positivo $n$.
+$$n! = n \times (n-1) \times (n-2) \times \dots \times 1$$
+
+* **Caso Base de Sucesso (Parada):** Qual é o fatorial de 1? (Ou 0?)
+* **Caso Recursivo (Redução):** Como você expressa $n!$ em termos de $(n-1)!$?
+
+### 2. Contagem Simples (Medindo o Universo)
+
+Este exercício testa sua capacidade de **reduzir a lista** (D&C) sem a complicação da busca binária.
+
+**O Problema:** Escreva uma função recursiva `contarElementos(lista: Array<Int>)` que retorna o número de elementos na lista, **sem usar** loops (`for`/`while`) nem a propriedade `.size`.
+
+* **Caso Base:** Qual é o tamanho de uma lista vazia?
+* **Caso Recursivo:** Se você "arrancar" um elemento da lista e passar o resto para a função recursiva, como você usa o resultado dela para obter a contagem total?
+
+### 3. Busca Binária Modificada (Primeira Ocorrência)
+
+Agora voltamos à Busca Binária, mas com um requisito de entrevista que exige um raciocínio lógico extra.
+
+**O Problema:** Você está em uma lista ordenada com duplicatas (ex: `[2, 4, 4, 4, 6, 8]`). Escreva uma função recursiva que não apenas encontre o alvo, mas encontre o **índice da primeira ocorrência** do alvo.
+
+* Se o `meio` for igual ao `alvo`, você não pode parar. Você precisa checar se o elemento **anterior** também é o alvo.
+* **A Dúvida:** Se o `meio` é o alvo, você continua buscando na **esquerda** (para achar a primeira ocorrência), ou para? (Dica: O Caso Base de sucesso é mais complexo agora.)
+
+### 4. Busca em Array Rotacionado (O Twist da Big Tech)
+
+Este é um problema clássico de Big Tech que usa a lógica da Busca Binária, mas a lista não está totalmente ordenada.
+
+**O Problema:** Você tem um array ordenado que foi rotacionado em um ponto desconhecido (ex: `[6, 7, 8, 1, 2, 3, 4]`). Escreva uma função recursiva para encontrar um alvo nessa lista.
+
+* **O Desafio:** Você ainda calcula o `meio`, mas agora você precisa decidir se a metade **esquerda** ou a metade **direita** está ordenada, para saber qual metade descartar.
+* **Pista:** Compare `lista[inicio]` com `lista[meio]` e `lista[fim]` para descobrir qual metade do array está bem comportada.
+
+### 5. Soma de Subvetores (Conectando com o Merge Sort)
+
+Este exercício conecta a lógica de divisão da Busca Binária com outros algoritmos de D&C (como o Merge Sort, que você estudará no próximo capítulo).
+
+**O Problema:** Escreva uma função recursiva `somaSubVetor(lista: Array<Int>, inicio: Int, fim: Int)` que, usando apenas a recursão, calcule a soma de todos os elementos dentro dos limites `inicio` e `fim`.
+
+* **Caso Base:** Quando a janela (`inicio` e `fim`) tem apenas 1 elemento, qual é a soma? E se tiver 0 elementos?
+* **Caso Recursivo:** Divida a lista no `meio`. Chame a função recursivamente para a metade esquerda, chame para a metade direita e **some os dois resultados**.
+
+---

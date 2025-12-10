@@ -8,6 +8,18 @@ class LampadaClass {
     var tensao: String? = null
     var potencia: Int = 0
     var tipoLuz: String? = null
-    var garantia: Int = 0
+    var garantiaMeses: Int = 0
     var tipos: Array<String> = arrayOf()
+}
+
+class LampadaUm {
+    init {
+        val lampada  = LampadaClass()
+        lampada.modelo = "A60"
+        lampada.tensao = "Bivolt"
+        lampada.potencia = 7
+        lampada.tipoLuz = "Branca"
+        lampada.garantiaMeses = 36
+        lampada.tipos = arrayOf("Abajur", "Luminária", "Spot", "Teto")
+    }
 }

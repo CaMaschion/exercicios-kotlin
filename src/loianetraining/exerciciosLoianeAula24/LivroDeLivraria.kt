@@ -2,10 +2,8 @@ package loianetraining.exerciciosLoianeAula24
 
 class LivroDeLivraria {
 
-    fun main() {
-
-        var livroDeLivraria = LivroClass()
-
+    init {
+        val livroDeLivraria = LivroClass()
         livroDeLivraria.preco = 50
         livroDeLivraria.tema = "Fantasia"
         livroDeLivraria.titulo = "O Senhor dos Anéis"
@@ -14,6 +12,5 @@ class LivroDeLivraria {
         livroDeLivraria.autor = "J.R.R. Tolkien"
         livroDeLivraria.empresta = false
         livroDeLivraria.quantidadeLivros = 10
-
     }
 }

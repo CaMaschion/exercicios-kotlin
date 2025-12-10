@@ -2,7 +2,7 @@ package loianetraining.exerciciosLoianeAula24
 
 class LivroDeBiblioteca {
 
-    fun main() {
+    init {
 
         val livroBiblioteca = LivroClass()
 

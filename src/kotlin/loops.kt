@@ -1,7 +1,7 @@
-package kotlin
+/*package kotlin
 
-//ESTRUTURAS DE REPETICAO => também conhecidas como loops, são fundamentais para executar um bloco
-//de código várias vezes de forma eficiente
+ESTRUTURAS DE REPETICAO => também conhecidas como loops, são fundamentais para executar um bloco
+de código várias vezes de forma eficiente
 
 fun main() {
 
@@ -10,10 +10,10 @@ fun main() {
      * uma lista ou um array
      **/
 
-    //sintaxe básica
-//    for (item in collection) {
-//        //bloco de código a ser executado
-//    }
+    sintaxe básica
+    for (item in collection) {
+        //bloco de código a ser executado
+    }
 
     //exemplo com intervalo (range):
     for (i in 1..5) {
@@ -47,12 +47,12 @@ fun main() {
 
     //exemplo:
     val frutinhas = listOf("maçã", "banana", "cereja")
-    frutinhas.forEach { fruta ->
-        println(fruta) // Imprime cada fruta da lista
-    }
+//    frutinhas.forEach { fruta ->
+//        println(fruta) // Imprime cada fruta da lista
+//    }
 
     /**
-     * While => O loop while executa um bloco de código enquanto uma condição especificada é verdadeira.
+     * While => O loop while executa um bloco de código enquanto uma condição especifica é verdadeira.
      */
 
     //sintaxe básica
@@ -69,7 +69,7 @@ fun main() {
 
     /**
      * do-while => O loop do-while é semelhante ao while, mas garante que o bloco de código seja executado
-     * pelo menos uma vez, pois a condição é verificada após a execução do bloco.
+    * pelo menos uma vez, pois a condição é verificada após a execução do bloco.
      */
 
     //sintaxe básica
@@ -84,15 +84,4 @@ fun main() {
         i++
     } while (i <= 5)
 
-
-}
-
-
-
-
-
-
-
-
-
-
+ */
