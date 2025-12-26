@@ -2,9 +2,9 @@ package exemplos
 
 ////5. Faça um algoritmo que imprima a soma dos números de 1 a 100.
 fun main() {
-    print(
-        binarySearch(
-            arrayOf(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10), item = 0
+    println(
+        search(
+            arrayOf(2,5), target = 5
         )
     )
 }
@@ -57,7 +57,7 @@ fun main() {
 
 fun binarySearch(num: Array<Int>, item: Int): Boolean {
 
-    if ( num.last() < item ) {
+    if (num.last() < item) {
         return false
     }
 
@@ -80,3 +80,65 @@ fun binarySearch(num: Array<Int>, item: Int): Boolean {
 
     return false
 }
+
+fun search2(nums: Array<Int>, target: Int): Int {
+    if (target > nums.last()) {
+        return -1
+    }
+
+    var arr = nums.copyOf()
+    var midIndex = nums.size / 2
+
+    while (arr.isNotEmpty()) {
+
+        if (nums[midIndex] == target) {
+            return midIndex
+        }
+
+        val index = arr.size / 2
+        val first = arr.sliceArray(0 until index)
+        val second = arr.sliceArray(index until nums.size)
+
+        if (target > first.last()) {
+            arr = second
+            midIndex = midIndex + 1
+        }
+
+        if (target < second.first()) {
+            arr = first
+            midIndex = midIndex - 1
+        }
+
+    }
+    return midIndex
+}
+
+fun search(nums: Array<Int>, target: Int): Int {
+
+    if (nums.size == 1) {
+        if (nums[0] == target) {
+            return 0
+        } else {
+            return -1
+        }
+    }
+
+    var left = 0
+    var right = nums.size - 1
+    var mid = 0
+
+    while (left <= right) {
+
+        mid = (left + right) / 2
+
+        if (nums[mid] == target) {
+            return mid
+        } else if (target < nums[mid]) {
+            right = mid - 1
+        } else {
+            left = mid + 1
+        }
+    }
+    return -1
+}
+
